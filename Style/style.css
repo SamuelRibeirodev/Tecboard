@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0E1014;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 8%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 70rem;
+    gap: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+}
+
+.titulo_principal {
+    color: #9747FF;
+}
+
+.paragrafo {
+    width: 100%;
+    max-width: 44rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.botao {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    text-decoration: none;
+    background-color: #9747FF;
+    border-radius: 2.5rem;
+    padding: 0.75rem 3rem;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #8233E8;
+}
+
+.conteudo img {
+    width: 100%;
+    max-width: 50rem;
+    height: auto;
+}
+
+@media (max-width: 48rem) {
+    .cabecalho-conteudo {
+        padding: 2rem 5%;
+    }
+
+    .cabecalho-conteudo img {
+        max-width: 45%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .botao {
+        font-size: 1rem;
+        padding: 0.75rem 2rem;
+    }
+}
+
+@media (max-width: 30rem) {
+    .cabecalho-conteudo {
+        padding: 1.5rem 1rem;
+    }
+
+    .conteudo {
+        gap: 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .paragrafo {
+        font-size: 0.875rem;
+    }
+
+    .botao {
+        font-size: 0.875rem;
+        padding: 0.75rem 1.5rem;
+    }
+}
